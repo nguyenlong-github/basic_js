@@ -1,0 +1,85 @@
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+
+}
+#btnContainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white; /* màu của chữ */
+    background-color: rgb(77, 204, 204);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: #00a3a3;
+    
+}
+
+
+
+
+
+
+/* Phần tử khối display: block; là gì?
+
+    Phần tử khối giống như một chiếc hộp lớn: Khi bạn đặt một chiếc hộp lớn trên bàn, nó sẽ chiếm toàn bộ chiều rộng của bàn và không có chỗ cho bất kỳ thứ gì khác trên cùng một dòng với nó.
+    Bắt đầu trên một dòng mới: Khi bạn đặt chiếc hộp lớn này lên bàn, nó sẽ tự động tạo ra một khoảng trống mới phía dưới để các vật khác có thể được đặt ở đó.
+
+Ví dụ đơn giản
+
+Hãy tưởng tượng bạn có một cuốn sách, một cái bút và một cái hộp lớn.
+
+    Chiếc hộp lớn: giống như phần tử khối (display: block;). Khi bạn đặt nó trên bàn, nó chiếm hết chiều rộng của bàn và các thứ khác phải được đặt phía dưới nó.
+    Cuốn sách và cái bút: giống như các phần tử nội tuyến (không phải khối). Khi bạn đặt chúng trên bàn, chúng có thể nằm cạnh nhau trên cùng một dòng.
+
+Minh họa bằng một ví dụ
+
+Giả sử bạn có một đoạn văn bản như thế này:
+
+html
+
+<div id="blockElement">Đây là một phần tử khối.</div>
+<span>Đây là một phần tử nội tuyến.</span>
+<p>Đây là một đoạn văn bản.</p>
+
+Trong đoạn này:
+
+    <div> là một phần tử khối.
+    <span> và <p> là các phần tử nội tuyến.
+
+Nếu phần tử div được đặt trên bàn, nó sẽ giống như một chiếc hộp lớn chiếm hết chiều rộng của bàn, và không có chỗ cho span và p trên cùng một dòng.
+Hình ảnh minh họa
+
+html
+
+-------------------------------------
+| Đây là một phần tử khối.          |
+-------------------------------------
+Đây là một phần tử nội tuyến. Đây là một đoạn văn bản.
+
+Phần tử khối bắt đầu trên một dòng mới và chiếm toàn bộ chiều rộng có sẵn. Các phần tử khác phải nằm phía dưới nó.
+So sánh với phần tử nội tuyến
+
+Nếu bạn thay đổi div thành phần tử nội tuyến, nó sẽ giống như một cuốn sách hoặc cái bút, và có thể nằm trên cùng một dòng với các phần tử khác.
+
+css
+
+#blockElement {
+    display: inline;
+}
+
+Kết quả:
+
+html
+
+Đây là một phần tử khối. Đây là một phần tử nội tuyến. Đây là một đoạn văn bản.
+
+Hy vọng với ví dụ này, bạn có thể hiểu được sự khác biệt giữa phần tử khối và phần tử nội tuyến! */
