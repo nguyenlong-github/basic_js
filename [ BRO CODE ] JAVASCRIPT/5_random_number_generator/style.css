@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana;
+    text-align: center;
+}
+
+#myButton{
+    font-size: 3em;
+    padding: 5px 25px;
+    color: white;
+    background-color: #c148df;
+    border-radius: 5px;
+    transition: back-ground-color 0.25s;
+
+}
+
+#myButton:hover{
+    background-color: #9f04c6;
+
+}
+
+#myLabel,#myLable1{
+    font-size: 3em;
+}
